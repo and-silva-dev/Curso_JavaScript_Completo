@@ -23,3 +23,8 @@ var frase2 = `O jogador fez ${gols} gols`;
 
 console.log(frase1);
 console.log(frase2);
+
+var time = 'Clube de Regatas';
+var time2 = 'do Flamengo';
+var timeCompleto = `${time} ${time2}`
+console.log(timeCompleto);
