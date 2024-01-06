@@ -17,3 +17,27 @@ var subtracao = '100' - 50; // Nesse caso , consegue-se fazer a subtração por 
 var multiplicacao = '100' * '2'; // 200
 var divisao = 'Comprei 10' / 2; // NaN (Not a Number) Aqui não foi possível a coerção porque na String contém texto junto com número
 console.log(subtracao)
+
+
+// Operadores 2
+
+var idade = '28';
+console.log(idade);
+var idade1 = +'28'
+console.log(idade1);
+
+var expressao1 = 'Teste'/2;
+var expressao2 = 'Teste' - 2;
+console.log(expressao1 , expressao2);
+
+var soma = +'200' + 50;
+console.log(soma);
+
+var x = 5;
+x++;
+console.log(x);
+
+var numero = '80';
+var unidade = 'kg';
+var peso = numero + unidade ; //'80kg'
+var pesoPorDois = peso / 2; //  NaN (Not a number)
