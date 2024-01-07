@@ -20,3 +20,29 @@ function mostraConsole(){
   console.log('clicou');
 }
 addEventListener('click', mostraConsole);
+
+function calculadoraImc2(peso,altura) { 
+imc = peso / (altura **2);
+console.log(imc);
+}
+calculadoraImc2(85,1.68); 
+
+function terceiraIdade(idade){
+  console.log(typeof idade);
+  if (typeof idade !== 'number'){
+    return 'Informe a sua idade';
+  }else if (idade >= 60){
+    return true;
+} else {
+  return false;
+}
+}
+console.log(terceiraIdade('50'));
+
+
+function faltarVisitar(paisesVisitados){
+var totalPaises = 193;
+return `Falta visitar ${totalPaises - paisesVisitados} paises`;
+
+
+}
