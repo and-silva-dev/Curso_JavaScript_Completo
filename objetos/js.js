@@ -22,3 +22,10 @@ console.log(Math.random());
 
 console.table(pessoa);
 console.table(quadrado);
+
+var menu = {
+  width: 800,
+  height: 50,
+  backgroundColor: '#84e'
+}
+ console.log(menu.width); 
